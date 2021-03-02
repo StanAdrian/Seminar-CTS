@@ -8,7 +8,7 @@ public class Zookeeper {
     }
 
     public void feed (Animal a){
-        System.out.println("Ingrijitorul" + this.name + " ingrijeste animalul " + a.getName());
+        System.out.println("Ingrijitorul " + this.name + " ingrijeste animalul " + a.getName());
     }
 
 }
