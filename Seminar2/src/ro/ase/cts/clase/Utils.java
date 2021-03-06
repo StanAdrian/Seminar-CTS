@@ -1,7 +1,4 @@
-package clase;
-
-import org.w3c.dom.*;
-import org.xml.sax.SAXException;
+package ro.ase.cts.clase;
 
 import java.io.File;
 import java.io.FileNotFoundException;
