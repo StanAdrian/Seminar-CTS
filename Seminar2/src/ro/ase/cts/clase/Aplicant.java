@@ -28,9 +28,11 @@ public abstract class Aplicant{
 	public void setVarsta(int varsta) {
 		this.varsta = varsta;
 	}
+
 	public void afiseazaStatutInProiect(Proiect proiect){
 		StringBuilder sb = new StringBuilder("Aplicantul "+nume+" "+prenume);
-		sb.append((punctaj>proiect.getPragAcceptare())?(" a fost acceptat."):" nu a fost acceptat.");
+		sb.append(punctaj>proiect.getPragAcceptare()?" a fost acceptat.":" nu a fost acceptat.");
+		System.out.println(sb);
 		}
 	public int getPunctaj() {
 		return punctaj;

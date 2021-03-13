@@ -16,12 +16,15 @@ public class Program {
 
 	public static void main(String[] args) {
 		List<Aplicant> listaAplicanti;
-		Proiect proiect = new Proiect(80);
+
 		try {
-			listaAplicanti =citesteAplicanti(new ElevReader("Seminar2/studenti.txt"));
+			Proiect proiect = new Proiect(80);
+			listaAplicanti =citesteAplicanti(new ElevReader("Seminar2/elevi.txt"));
 			for(Aplicant aplicant:listaAplicanti){
 				System.out.println(aplicant.toString());
-			System.out.println(aplicant.getFinantare());}
+				System.out.println(aplicant.getFinantare());
+				aplicant.afiseazaStatutInProiect(proiect);
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
