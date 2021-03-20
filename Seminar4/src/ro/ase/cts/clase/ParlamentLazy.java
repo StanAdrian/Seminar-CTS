@@ -14,11 +14,7 @@ public class ParlamentLazy {
              int durataMandat,
             String denumireSediu){
         if(parlamentLazy==null){
-            parlamentLazy = new ParlamentLazy(
-            numeTara,
-            nrParlamentari,
-             durataMandat,
-             denumireSediu);
+            parlamentLazy = new ParlamentLazy(numeTara, nrParlamentari, durataMandat, denumireSediu);
         }
         return parlamentLazy;
     }

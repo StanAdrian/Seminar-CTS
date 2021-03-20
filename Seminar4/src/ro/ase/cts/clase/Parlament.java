@@ -27,22 +27,6 @@ public class Parlament {
     }
 
 
-    public String getNumeTara() {
-        return numeTara;
-    }
-
-    public int getNrParlamentari() {
-        return nrParlamentari;
-    }
-
-    public int getDurataMandat() {
-        return durataMandat;
-    }
-
-    public String getDenumireSediu() {
-        return denumireSediu;
-    }
-
     public void setNumeTara(String numeTara) {
         this.numeTara = numeTara;
     }
