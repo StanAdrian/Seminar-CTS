@@ -51,3 +51,5 @@ public class Angajat extends Aplicant{
 	}
 	
 }
+
+

@@ -30,7 +30,7 @@ public abstract class Aplicant{
 	}
 
 	public void afiseazaStatutInProiect(Proiect proiect){
-		StringBuilder sb = new StringBuilder("Aplicantul "+nume+" "+prenume);
+		StringBuilder sb = new StringBuilder("Aplicantul " + nume + " " + prenume);
 		sb.append(punctaj>proiect.getPragAcceptare()?" a fost acceptat.":" nu a fost acceptat.");
 		System.out.println(sb);
 		}
