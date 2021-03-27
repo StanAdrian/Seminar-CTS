@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 public class Program {
+
 	public static List<Aplicant> citesteAplicanti(Readable readable) throws FileNotFoundException {
 		return readable.readAplicanti();
 	}
