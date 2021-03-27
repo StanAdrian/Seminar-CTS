@@ -12,6 +12,9 @@ public class Program {
         System.out.println(medic);
         System.out.println(asistent);
 
+        PersonalMedical medic2 = FactorySingleton.getInstance().create(TipPersonal.MEDIC,"Pop", 6500);
+
+
 
     }
 }
