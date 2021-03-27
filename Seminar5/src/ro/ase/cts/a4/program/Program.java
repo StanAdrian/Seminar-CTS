@@ -18,7 +18,6 @@ public class Program {
         Reteta reteta2 = (Reteta) reteta1.copiaza();
 
         System.out.println(reteta1);
-
         System.out.println(reteta2);
 
     }
