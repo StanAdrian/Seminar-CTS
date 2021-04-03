@@ -1,4 +1,4 @@
-package ro.ase.cts.e1.clase;
+package ro.ase.cts.e2.clase;
 
 public class Mijlocas extends Jucator{
     public Mijlocas(String nume, int nrTricou) {
