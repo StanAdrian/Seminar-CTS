@@ -1,7 +1,7 @@
-package ro.ase.cts.e7.program;
+package ro.ase.cts.e8.program;
 
 
-import ro.ase.cts.e7.clase.*;
+import ro.ase.cts.e8.clase.*;
 
 public class Program {
 

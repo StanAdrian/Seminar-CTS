@@ -1,4 +1,4 @@
-package ro.ase.cts.e7.clase;
+package ro.ase.cts.e8.clase;
 
 public interface ComponentaAbstracta {
     public void printareElement();

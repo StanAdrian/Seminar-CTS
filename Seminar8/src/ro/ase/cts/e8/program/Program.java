@@ -1,7 +1,7 @@
-package ro.ase.cts.e7.program;
+package ro.ase.cts.e8.program;
 
-import ro.ase.cts.e7.clase.Produs;
-import ro.ase.cts.e7.clase.Sectiune;
+import ro.ase.cts.e8.clase.Produs;
+import ro.ase.cts.e8.clase.Sectiune;
 
 public class Program {
     public static void main(String[] args) {
