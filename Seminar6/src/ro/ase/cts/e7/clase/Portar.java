@@ -1,4 +1,4 @@
-package ro.ase.cts.e2.clase;
+package ro.ase.cts.e7.clase;
 
 public class Portar extends Jucator{
     public Portar(String nume, int nrTricou) {
