@@ -1,6 +1,6 @@
-package ro.ase.cts.program;
+package ro.ase.cts.e.program;
 
-import ro.ase.cts.clase.Ceas;
+import ro.ase.cts.e.clase.Ceas;
 
 public class Main {
     public static void main(String[] args) {

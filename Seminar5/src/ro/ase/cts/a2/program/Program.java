@@ -1,6 +1,9 @@
 package ro.ase.cts.a2.program;
 
-import ro.ase.cts.a2.clase.*;
+import ro.ase.cts.a2.clase.Factory;
+import ro.ase.cts.a2.clase.FactorySingleton;
+import ro.ase.cts.a2.clase.PersonalMedical;
+import ro.ase.cts.a2.clase.TipPersonal;
 
 public class Program {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package ro.ase.cts.clase.readers;
+package ro.ase.cts.e.clase.readers;
 
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.Elev;
+import ro.ase.cts.e.clase.Aplicant;
+import ro.ase.cts.e.clase.Elev;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ElevReader extends Readable{
+public class ElevReader extends Readable {
 
     public ElevReader(String numeFisier) {
         super(numeFisier);

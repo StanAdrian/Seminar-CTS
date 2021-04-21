@@ -1,7 +1,7 @@
-package ro.ase.cts.clase.readers;
+package ro.ase.cts.e.clase.readers;
 
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.Student;
+import ro.ase.cts.e.clase.Aplicant;
+import ro.ase.cts.e.clase.Student;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class StudentReader extends Readable{
+public class StudentReader extends Readable {
 
     public StudentReader(String numeFisier) {
         super(numeFisier);

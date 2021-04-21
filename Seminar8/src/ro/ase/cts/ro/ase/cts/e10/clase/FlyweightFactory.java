@@ -11,7 +11,7 @@ public class FlyweightFactory {
     }
 
     public FlyweightAbstract getClient(String nrTel){
-        FlyweightAbstract client = this.clienti.get(nrTel);
+        FlyweightAbstract client = clienti.get(nrTel);
         if(client == null){
             client = new Client("Andrei", nrTel,"email@test.ro");
             clienti.put(nrTel, client);

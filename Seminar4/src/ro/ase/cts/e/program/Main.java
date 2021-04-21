@@ -1,7 +1,7 @@
-package ro.ase.cts.program;
+package ro.ase.cts.e.program;
 
-import ro.ase.cts.clase.Parlament;
-import ro.ase.cts.clase.ParlamentLazy;
+import ro.ase.cts.e.clase.ParlamentLazy;
+import ro.ase.cts.e.clase.Parlament;
 
 public class Main {
     public static void main(String[] args) {

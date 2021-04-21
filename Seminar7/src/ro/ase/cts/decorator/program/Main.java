@@ -1,8 +1,8 @@
 package ro.ase.cts.decorator.program;
 
+import ro.ase.cts.decorator.classes.DecoratorContactLessTelefon;
 import ro.ase.cts.decorator.classes.Card;
 import ro.ase.cts.decorator.classes.DecoratorContactLessCard;
-import ro.ase.cts.decorator.classes.DecoratorContactLessTelefon;
 
 public class Main {
     public static void main(String[] args) {
