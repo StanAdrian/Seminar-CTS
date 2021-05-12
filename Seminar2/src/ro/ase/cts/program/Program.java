@@ -1,10 +1,10 @@
-package ro.ase.cts.e.program;
+package ro.ase.cts.program;
 
 
-import ro.ase.cts.e.clase.Aplicant;
-import ro.ase.cts.e.clase.readers.ElevReader;
-import ro.ase.cts.e.clase.readers.Readable;
-import ro.ase.cts.e.clase.Proiect;
+import ro.ase.cts.clase.Aplicant;
+import ro.ase.cts.clase.readers.ElevReader;
+import ro.ase.cts.clase.readers.Readable;
+import ro.ase.cts.clase.Proiect;
 
 import java.io.FileNotFoundException;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ro.ase.cts.e.clase;
+package ro.ase.cts.clase;
 
 public class Ceas {
     private String numeBrand;

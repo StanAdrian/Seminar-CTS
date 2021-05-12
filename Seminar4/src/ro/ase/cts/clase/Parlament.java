@@ -1,37 +1,31 @@
-package ro.ase.cts.e.clase;
+package ro.ase.cts.clase;
 
-public class ParlamentLazy {
+public class Parlament {
     private String numeTara;
     private int nrParlamentari;
     private int durataMandat;
     private String denumireSediu;
 
-    private static ParlamentLazy parlamentLazy = null;
+    private static Parlament parlament = new Parlament();
 
-    public static synchronized ParlamentLazy getInstance(
-            String numeTara,
-             int nrParlamentari,
-             int durataMandat,
-            String denumireSediu){
-        if(parlamentLazy==null){
-            parlamentLazy = new ParlamentLazy(numeTara, nrParlamentari, durataMandat, denumireSediu);
-        }
-        return parlamentLazy;
+    public static Parlament getInstance(){
+        return parlament;
     }
 
-    private ParlamentLazy() {
+    private Parlament() {
         this.numeTara = "";
         this.nrParlamentari = 0;
         this.durataMandat = 0;
         this.denumireSediu = "";
     }
 
-    private ParlamentLazy(String numeTara, int nrParlamentari, int durataMandat, String denumireSediu) {
+    private Parlament(String numeTara, int nrParlamentari, int durataMandat, String denumireSediu) {
         this.numeTara = numeTara;
         this.nrParlamentari = nrParlamentari;
         this.durataMandat = durataMandat;
         this.denumireSediu = denumireSediu;
     }
+
 
     public void setNumeTara(String numeTara) {
         this.numeTara = numeTara;
@@ -49,9 +43,13 @@ public class ParlamentLazy {
         this.denumireSediu = denumireSediu;
     }
 
+    public static void setParlament(Parlament parlament) {
+        Parlament.parlament = parlament;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ParlamentLazy{");
+        final StringBuilder sb = new StringBuilder("Parlament{");
         sb.append("numeTara='").append(numeTara).append('\'');
         sb.append(", nrParlamentari=").append(nrParlamentari);
         sb.append(", durataMandat=").append(durataMandat);
