@@ -10,7 +10,7 @@ public class Program {
     public static void main(String[] args) {
         List<Angajat> listaAngajati;
         try {
-            listaAngajati = Utils.readAngajati("angajati.txt");
+            listaAngajati = Utils.readAngajati("Seminar2-acasa/angajati.txt");
             for(Angajat angajat:listaAngajati)
                 System.out.println(angajat.toString());
         } catch (FileNotFoundException e) {
